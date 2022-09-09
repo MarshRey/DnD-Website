@@ -85,3 +85,8 @@ function d100Roller(d100num){
 function avgClassDamage(dndclass) {
 
 }
+
+// Class factory for charecters
+function makeCharecter(){
+    
+}

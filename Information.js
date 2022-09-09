@@ -2,6 +2,8 @@ var raceInfo = ["Dragonborn", "Dwarf", "Elf", "Gnome", "Half-Elf", "Half-Orc", "
 "Aasimar", "Fairy", "Firbolg", "Genasi", "Gith", "Goliath", "Harengon", "Kenku", "Locathah", "Owlin", "Tabaxi", "Torle", 
 "Triton", "Verdan"];
 
+const Dragonborn = raceClass(Dragonborn, 2, 0, 0, 0, 0, 1);
+
 var classInfo = ["Barbarian", "Blood Hunter", "Cleric", "Druid", "Fighter", "Monk", "Paladin", "Ranger", "Rogue", "Sorcerer",
 "Warlock", "Wizard", "bard", "Artificer (UA)"];
 
@@ -19,5 +21,18 @@ var featsInfo = ["Aberrant Dragonmark", "Actor", "Alert", "Artificer Initiate", 
 "Lightly Armored", "Linguist", "Lucky", "Mage Slayer", "Magic Initiate", "Martial Adept", "Medium Armor Master", "Metamagic Adept",
 "Mobile", "Moderately Armored", "Mounted Combatant", "Observant", "Piercer", "Poisoner", "Polearm Master", "Resilient", 
 "Ritual Caster", "Savage Attacker", "Sentinel", "Shadow Touched", "Sharpshooter", "Shield Master", "Skill Expert", "Skilled",
-"Skulker", "Slasher", "Spell Sniper", "Tavern Brawler", "Tough", "War Caster", "Weapon Master"];
+"Skulker", "Slasher", "Spell Sniper", "Tavern Brawler", "Tough", "War Caster", "Weapon Master", "Acrobat (UA)", 
+"Adept of the Black Robes (UA)", "Adept of the Red Robes (UA)", "Adept of the White Robes (UA)", "Agent of Order (UA)", 
+"Alchemist (UA)", "Animal Handler (UA)", "Arcanist (UA)", "Baleful Scoin (UA)", "Blade Mastery (UA)", "Brawny (UA)", "Burglar (UA)",
+"Cartomancer (UA)", "Cohort of Chaos (UA)", "Diplomat (UA)", "Divine Communications (UA)", "Divinely Favored (UA)", 
+"Dragonmark (UA)", "Elemental Touched (UA)", "Ember of the Fire Giant (UA)", "Empathic (UA)", "Fell Handed (UA)", "Flail Mastery (UA)", 
+"Fury of the Frost Giant (UA)","Guile of the Cloud Giant (UA)", "Gourmand (UA)", "Greater Dragonmark (UA)", "Historian (UA)", 
+"Initiate of High Sorcery (UA)", "Investigator (UA)", "Keenness of the Stone Giant (UA)", "Knight of the Crown (UA)", 
+"Knight of the Sword (UA)", "Knight of the Rose (UA)", "Master of Disguise (UA)", "Medic (UA)", "Menacing (UA)", 
+"Metabolic Control (UA)", "Naturalist (UA)", "Outlands Envoy (UA)", "Outsized Might (UA)", "Perceptive (UA)", "Performer (UA)", 
+"Planar Wanderer (UA)", "Practiced Expert (UA)", "Quick-Fingered (UA)", "Righteous Heritor (UA)", "Rune Carver Adept (UA)", 
+"Rune Carver Apprentice (UA)", "Scion of the Elemental Air (UA)", "Scion of the Elemental Earth (UA)", 
+"Scion of the Elemental Fire (UA)", "Scion of the Elemental Water (UA)", "Shield Training (UA)", "Silver Tongued (UA)", 
+"Spear of Solamnia (UA)", "Soul of the Storm Giant (UA)", "Stealthy (UA)", "Strike of the Giants (UA)", "Survivalist (UA)",
+"Tandem Tactician (UA)", "Theologian (UA)", "Tower of Iron Will (UA)", "Tracker (UA)", "Vigor of the Hill Giant (UA)", "Wild Talent (UA)"];
 
