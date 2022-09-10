@@ -1,31 +1,31 @@
-const classes = require("./classes"); // Allows for the use of classes from classes.js
+const raceInfo = require("./raceInfo"); // Allows for the use of classes from classes.js
 
 // class information with their stat bonuses
-const Dragonborn = classes.raceClass('Dragonborn', 2, 0, 0, 0, 0, 1, 'no');
-const Dwarf = classes.raceClass('Dwarf', 0, 0, 2, 0, 0, 0, 'no');
-const elf = classes.raceClass('elf', 0, 2, 0, 0, 0, 0, 'no');
-const Gnome = classes.raceClass('Gnome', 0, 0, 0, 2, 0, 0, 'no');
-const Half_Elf = classes.raceClass('Half-Elf', 0, 0, 0, 0, 0, 2,'yes'); // Has a two ability scores increase by 1
-const Half_Orc = classes.raceClass('Half-Orc', 2, 0, 1, 0, 0, 0, 'no');
-const Halfling = classes.raceClass('Halfling', 0, 2, 0, 0, 0, 0, 'no');
-const Human = classes.raceClass('Human', 1, 1, 1, 1, 1, 1, 'no');
-const Tiefling = classes.raceClass('Tiefling', 0, 0, 0, 0, 0, 2, 'no');
-const Arakocra = classes.raceClass('Arakocra', 0, 2, 0, 0, 1, 0, 'no');
-const Aasimar = classes.raceClass('Aasimar', 0, 0, 0, 0, 1, 2, 'no');
-const Fairy = classes.raceClass('Fairy', 0, 0, 0, 0, 0, 0, 'yes'); // Increase one score by 2, and increase a different one by 1, or increase three different scores by 1.
-const Firbolg = classes.raceClass('Firbolg', 1, 0, 0, 0, 2, 0, 'no');
-const Genasi = classes.raceClass('Genasi', 0, 0, 2, 0, 0, 0, 'no');
-const Githyanki = classes.raceClass('Githyanki', 2, 0, 0, 1, 0, 0, 'no'); // Gith type one
-const Githzeria = classes.raceClass('Githzeria', 0, 0, 0, 1, 2, 0, 'no'); // Gith type two
-const Goliath = classes.raceClass('Goliath', 2, 0, 1, 0, 0, 0, 'no');
-const Harengon = classes.raceClass('Harengon', 0, 0, 0, 0, 0, 0, 'yes'); // Increase one score by 2, and increase a different one by 1, or increase three different scores by 1.
-const Kenku = classes.raceClass('Kenku', 0, 2, 0, 0, 1, 0, 'no');
-const Locathah = classes.raceClass('Locathah', 2, 1, 0, 0, 0, 0, 'no');
-const Owlin = classes.raceClass('Owlin', 0, 0, 0, 0, 0, 0, 'yes'); // Increase one ability score by 2, and increase a different one by 1.
-const Tabaxi = classes.raceClass('Tabaxi', 0, 2, 0, 0, 0, 1, 'no');
-const Torle = classes.raceClass('Torle', 2, 0, 0, 0, 1, 0, 'no');
-const Triton = classes.raceClass('Triton', 1, 0, 1, 0, 0, 1, 'no');
-const Verdan = classes.raceClass('Verdan', 0, 0, 1, 0, 0, 2, 'no');
+const Dragonborn = raceInfo.raceClass('Dragonborn', 2, 0, 0, 0, 0, 1, 'no');
+const Dwarf = raceInfo.raceClass('Dwarf', 0, 0, 2, 0, 0, 0, 'no');
+const elf = raceInfo.raceClass('elf', 0, 2, 0, 0, 0, 0, 'no');
+const Gnome = raceInfo.raceClass('Gnome', 0, 0, 0, 2, 0, 0, 'no');
+const Half_Elf = raceInfo.raceClass('Half-Elf', 0, 0, 0, 0, 0, 2,'yes'); // Has a two ability scores increase by 1
+const Half_Orc = raceInfo.raceClass('Half-Orc', 2, 0, 1, 0, 0, 0, 'no');
+const Halfling = raceInfo.raceClass('Halfling', 0, 2, 0, 0, 0, 0, 'no');
+const Human = raceInfo.raceClass('Human', 1, 1, 1, 1, 1, 1, 'no');
+const Tiefling = raceInfo.raceClass('Tiefling', 0, 0, 0, 0, 0, 2, 'no');
+const Arakocra = raceInfo.raceClass('Arakocra', 0, 2, 0, 0, 1, 0, 'no');
+const Aasimar = raceInfo.raceClass('Aasimar', 0, 0, 0, 0, 1, 2, 'no');
+const Fairy = raceInfo.raceClass('Fairy', 0, 0, 0, 0, 0, 0, 'yes'); // Increase one score by 2, and increase a different one by 1, or increase three different scores by 1.
+const Firbolg = raceInfo.raceClass('Firbolg', 1, 0, 0, 0, 2, 0, 'no');
+const Genasi = raceInfo.raceClass('Genasi', 0, 0, 2, 0, 0, 0, 'no');
+const Githyanki = raceInfo.raceClass('Githyanki', 2, 0, 0, 1, 0, 0, 'no'); // Gith type one
+const Githzeria = raceInfo.raceClass('Githzeria', 0, 0, 0, 1, 2, 0, 'no'); // Gith type two
+const Goliath = raceInfo.raceClass('Goliath', 2, 0, 1, 0, 0, 0, 'no');
+const Harengon = raceInfo.raceClass('Harengon', 0, 0, 0, 0, 0, 0, 'yes'); // Increase one score by 2, and increase a different one by 1, or increase three different scores by 1.
+const Kenku = raceInfo.raceClass('Kenku', 0, 2, 0, 0, 1, 0, 'no');
+const Locathah = raceInfo.raceClass('Locathah', 2, 1, 0, 0, 0, 0, 'no');
+const Owlin = raceInfo.raceClass('Owlin', 0, 0, 0, 0, 0, 0, 'yes'); // Increase one ability score by 2, and increase a different one by 1.
+const Tabaxi = raceInfo.raceClass('Tabaxi', 0, 2, 0, 0, 0, 1, 'no');
+const Torle = raceInfo.raceClass('Torle', 2, 0, 0, 0, 1, 0, 'no');
+const Triton = raceInfo.raceClass('Triton', 1, 0, 1, 0, 0, 1, 'no');
+const Verdan = raceInfo.raceClass('Verdan', 0, 0, 1, 0, 0, 2, 'no');
 
 
 
