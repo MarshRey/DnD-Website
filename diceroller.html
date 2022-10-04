@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <title> DnD Website </title>
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
+
+</head>
+<body>
+    <div class = "main">
+        <nav>
+            <div class = "logo">
+                <img src = "images/logo.png">
+            </div>
+            <div class = "nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Class Information</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Patreon</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class = "dice-rollers">
+            <p style="color:white">Number of d4s to Roll: <input type="number" id="d4s" value = 0></p>
+            <p style="color:white">Number of d6s to Roll: <input type="number" id="d6s" value = 0></p>
+            <p style="color:white">Number of d8s to Roll: <input type="number" id="d8s" value = 0></p>
+            <p style="color:white">Number of d10s to Roll: <input type="number" id="d10s" value = 0></p>
+            <p style="color:white">Number of d12s to Roll: <input type="number" id="d12s" value = 0></p>
+            <p style="color:white">Number of d20s to Roll: <input type="number" id="d20s" value = 0></p>
+            <p style="color:white">Number of d100s to Roll: <input type="number" id="d100s" value = 0></p>
+            <p style="color:white">Number Rolled: <input type="int" id="output" value = 0 readonly></p>
+
+            <script type = "text/javascript" src = "functions.js"></script>
+            <script>
+                var d4 = document.getElementById('d4s').value;
+                var d6 = document.getElementById('d6s').value;
+                var d8 = document.getElementById('d8s').value;
+                var d10 = document.getElementById('d10s').value;
+                var d12 = document.getElementById('d12s').value;
+                var d20 = document.getElementById('d20s').value;
+                var d100 = document.getElementById('d100s').value;
+            </script>
+            <button onclick = "diceRoller(
+                document.getElementById('d4s').value, 
+                document.getElementById('d6s').value, 
+                document.getElementById('d8s').value, 
+                document.getElementById('d10s').value, 
+                document.getElementById('d12s').value, 
+                document.getElementById('d20s').value, 
+                document.getElementById('d100s').value)"> Roll Dice </button>
+        </div>
+    </div>
+
+</body>
+</html>

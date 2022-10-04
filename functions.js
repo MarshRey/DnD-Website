@@ -13,9 +13,10 @@ function damageFromRoll(d4num, d6num, d8num, d10num, d12num, d20num, d100num){
     return d4num * 2 + d6num * 3 + d8num * 4 + d10num * 5 + d12num * 6 + d20num * 10 + d100num * 50; 
 }
 
-// all dice roller
+// All dice roller
 function diceRoller(d4num, d6num, d8num, d10num, d12num, d20num, d100num){
-    return d4Roller(d4num) + d6Roller(d6num) + d8Roller(d8num) + d10Roller(d10num) + d12Roller(d12num) + d20Roller(d20num) + d100Roller(d100num);
+    var sum = d4Roller(d4num) + d6Roller(d6num) + d8Roller(d8num) + d10Roller(d10num) + d12Roller(d12num) + d20Roller(d20num) + d100Roller(d100num);
+    document.getElementById("output").value = sum;
 }
 
 // d4 roller

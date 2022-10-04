@@ -9,7 +9,7 @@
     height: 100vh;
     position: relative;
     overflow: hidden;
-    background: linear-gradient(to right, #9c27b0, #8ecdff);
+    background: rgb(9, 2, 38);
 }
 
 .nav{
